@@ -1,0 +1,25 @@
+# GET http://localhost:3000/api/users
+
+# POST http://localhost:3000/api/users/signup http/1.1
+# Content-Type: application/json
+
+# {
+#     "username": "deborahaanyuoduman",
+#     "email": "deborahaanyutrez12@gmail.com",
+#     "password": "godlovesme",
+#     "gender": "female",
+#     "country": "Uganda",
+#     "profession": "developer"
+# }
+
+POST http://localhost:3000/api/users/login http/1.1
+Content-Type: application/json
+
+{
+
+    "email": "deborahaanyutrez12@gmail.com",
+    "password": "godlovesme"
+}
+
+
+
